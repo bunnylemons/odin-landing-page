@@ -51,25 +51,23 @@ h1 {
     display: flex;
     flex-direction: row;
     margin: 50px;
-    justify-content: center;
-    align-items: center;
 }
 .content-right {
     display: flex;
     flex-direction: column;
+    width: 50%;
 }
 
 .content-left {
     display: flex;
-    flex-direction: column;
     width: 50%;
-    margin-left: 350px;
+    flex-direction: column;
     justify-content: center;
+    margin-left: 360px;
 }
 
 img {
     margin-bottom: 50px;
-    padding-right: 225px;
 }
 
 .p-first {
@@ -84,4 +82,38 @@ img {
     height: 40px;
     border: 1px #3882f6;
     border-radius: 10px;
+}
+
+h2 {
+    font-size: 26px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+}
+
+.box-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 100px;
+    align-items: center;
+}
+
+.box-blue {
+    border: 3px solid #3882f6;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.p-second {
+    text-align: center;
+    font-size: 18px;
 }
